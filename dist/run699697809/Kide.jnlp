@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Kide.jnlp">
+  <information>
+    <title>Kide</title>
+    <vendor>deepak</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Kide.jar" size="35615" download="eager" />
+    <jar href="lib/JavaPlugin.jar" size="10718" download="eager" />
+    <jar href="lib/KidePluginOpenApi.jar" size="3349" download="eager" />
+    <jar href="lib/richtextfx-fat-0.7-M3.jar" size="762992" download="eager" />
+    <jar href="lib/terminalfx-1.3.jar" size="4858001" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Kide" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="main.kide.editor.kide"  name="Kide" />
+  <update check="always"/>
+</jnlp>
